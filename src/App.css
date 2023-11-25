@@ -1,0 +1,49 @@
+
+/* default css */
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+  /*  deafult color  */
+
+  :root{
+    --primary-color:rgb(0, 206, 201);
+    --dark-color:rgb(99, 110, 114);
+    --secuandry-color:rgb(238, 82, 83);
+    --white-color:white;
+    
+  }
+
+
+  .button{
+    padding: 10px 20px ;
+    background-color: var(--secuandry-color);
+    font-weight: 700;
+    border: none;
+    border-radius: .5rem;
+    color: white;
+    text-decoration: none;
+
+  }
+
+  .button:hover{
+    background-color: var(--primary-color);
+    color: white;
+  }
+  .logo{
+    font-size: 2rem !important;
+    font-weight: bold;
+  }
+  .logo span{
+    color: var(--secuandry-color);
+  }
+
+  .mx-auto.my-2.my-lg-0.navbar-nav.navbar-nav-scroll {
+    gap: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.card{
+  background-color: var(--dark-color);
+  height: 100vh;
+}

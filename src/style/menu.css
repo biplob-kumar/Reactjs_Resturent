@@ -1,0 +1,95 @@
+
+
+.menu-gallray{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    height: 100%;
+    grid-gap: 1rem;
+}
+.gallary-item img{
+    max-width: 100%;
+}
+
+.header h1{
+font-size: 4rem;
+}
+.card{
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: .5rem;
+}
+
+.gallary-item  h5{
+font-size: 1.5rem;
+}
+.gallary-item p {
+    font-size: 1.3rem;
+    font-weight: bold;
+   
+}
+
+
+
+.nav{
+
+    padding: 10px 20px ;
+    gap :1rem;
+}
+li.men button{
+
+    display: inline-block;
+    padding: 10px 20px ;
+    border: none;
+    color: var(--white-color);
+    font-weight: bold;
+    border-radius: 1rem;
+    background-color: var(  --secuandry-color);
+}
+
+
+
+/*  mediya quarry css  */
+
+@media only screen and (max-width: 600px) {
+    .menu-gallray{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 100%;
+        grid-gap: 1rem;
+    }
+    .gallary-item img{
+        max-width: 100%;
+    }
+    
+    .card{
+        border: none;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: .5rem;
+    }
+    
+    .gallary-item  h5{
+    font-size: 1.3rem;
+    }
+    
+    
+    
+    .nav{
+    
+        padding: 10px 20px ;
+        gap :1rem;
+    }
+    li.men button{
+    
+        display: inline-block;
+        padding: 10px 20px ;
+        border: none;
+        color: var(--white-color);
+        font-weight: bold;
+        border-radius: 1rem;
+        background-color: var(  --secuandry-color);
+    }
+    
+
+  }

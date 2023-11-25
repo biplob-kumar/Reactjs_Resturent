@@ -1,0 +1,45 @@
+
+/*  bamer css start  */
+
+.banner{
+    background: url(../assets//img/banner.png) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.banner-wraper{
+    display: grid;
+    height: 100%;
+}
+
+.banner-content{
+    align-self: center;
+}
+
+.banner-content h2{
+    color:var(--white-color);
+    font-size: 4rem;
+}
+
+.red{
+    color: var(--secuandry-color) !important;
+}
+
+/*  mobile css start */
+
+
+@media only screen and (max-width: 600px) {
+    .banner-content h2{
+        font-size: 2rem;
+    }
+    .banner{
+
+        height: 40vh;
+    
+    }
+.banner-left .button{
+display: inline-block;
+}
+
+  }

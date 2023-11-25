@@ -1,0 +1,16 @@
+
+.review {
+    background-color: aliceblue;
+}
+
+.swiper-card{
+    text-align: center;
+    background-color: white;
+    width:800px;
+    height: 200px;
+    border-radius: 1rem;
+    padding: 100px 0;
+
+}
+
+/* mobile css start */
