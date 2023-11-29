@@ -26,7 +26,7 @@ const Review = () => {
   return (
     <div className='review py-5'>
         <div className="customerreview  text-center ">
-            <h1 >Our Valuable Customer Review</h1>
+            <h1 className='py-4' >Our Valuable Customer Review</h1>
         </div>
        <div className="container">
 

@@ -11,9 +11,12 @@ import {
   MDBCheckbox
 }
 from 'mdb-react-ui-kit';
+import Footer from '../../components/Footer';
 
 function Bookin() {
   return (
+
+  <>  
     <MDBContainer fluid data-aos="zoom-out-down">
 
       <MDBRow className='d-flex justify-content-center align-items-center h-100'>
@@ -53,6 +56,8 @@ function Bookin() {
       </MDBRow>
 
     </MDBContainer>
+    <Footer/>
+    </>
   );
 }
 

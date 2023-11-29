@@ -24,6 +24,7 @@ import Service from "../pages/service/Service";
 import Product from "../pages/Product/Product";
 import Contact from "../pages/Contact/Contact";
 import Bookin from "../pages/booking/Bookin";
+import Offer from '../pages/offer/Offer';
 
 const Router = () => {
   return (
@@ -43,6 +44,7 @@ const Router = () => {
             >
               <Nav.Link className='text-white '  as={Link} to='/' >HOME</Nav.Link>
               <Nav.Link  className='text-white' as={Link} to='/menu' >MENU</Nav.Link>
+              <Nav.Link  className='text-white' as={Link} to='/offer' >OFFER</Nav.Link>
               <Nav.Link  className='text-white' as={Link} to='/branch' > BRANCH</Nav.Link>
               <Nav.Link className='text-white'  as={Link} to='/Product' > PRODUCT</Nav.Link>
               <Nav.Link className='text-white'  as={Link} to='/contact' > CONTACT</Nav.Link>
@@ -67,6 +69,7 @@ const Router = () => {
   
               <Route  path='/'  element={<Home/>} />
               <Route  path='/menu'  element={<About/>} />
+              <Route  path='/offer'  element={<Offer/>} />
               <Route  path='/branch'  element={<Service/>} />
               <Route  path='/product'  element={<Product/>} />
               <Route  path='/contact'  element={<Contact/>} />

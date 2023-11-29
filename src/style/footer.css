@@ -1,0 +1,20 @@
+
+
+.footer-wraper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+    height: 100%;
+}
+.footr-logo{
+    font-weight:600;
+    font-size: 2.5rem;
+}
+.footr-logo span{
+    color: var(--secuandry-color);
+    
+}
+
+.text-uppercase p a{
+color: black;
+}

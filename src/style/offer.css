@@ -1,0 +1,37 @@
+
+.card img{
+
+
+}
+.offer{
+    background-color: var(--primary-color);
+}
+.card {
+width: 100%;
+height: 100%;
+
+}
+
+.offer-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+
+}
+
+.card h4{
+    font-weight: bold;
+}
+.card h6{
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: rgb(159, 162, 165);
+}
+.card p{
+    font-size: .9rem;
+    font-weight: 700;
+}
+.offer-card{
+    
+    border-radius: .5rem;
+}

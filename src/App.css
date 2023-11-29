@@ -7,7 +7,7 @@
   /*  deafult color  */
 
   :root{
-    --primary-color:rgb(0, 206, 201);
+    --primary-color:rgb(19, 15, 64);
     --dark-color:rgb(99, 110, 114);
     --secuandry-color:rgb(238, 82, 83);
     --white-color:white;
@@ -47,3 +47,13 @@
   background-color: var(--dark-color);
   height: 100vh;
 }
+
+a {
+  font-weight: 500;
+  color: black !important;
+  text-decoration: none !important;
+}
+a:hover{
+  color: var(--secuandry-color);
+}
+
